@@ -6,11 +6,11 @@ resolver: lts-6.26
 # Local packages, usually specified by relative directory name
 packages:
 - '.'
-- ../bitfunctor
-# - location:
-#    git: git@github.com:bitfunctor/bitfunctor.git
-#    commit: c6d81df9d26c22efaea36a7bbee6f52d3ff0e552
-#   extra-dep: true
+# - ../bitfunctor
+- location:
+   git: git@github.com:bitfunctor/bitfunctor.git
+   commit: 5ca85e73c92785a99fd6e1d7b6cd9fe7f98cf92c
+  extra-dep: true
 
 # Packages to be pulled from upstream that are not in the resolver (e.g., acme-missiles-0.3)
 extra-deps:
